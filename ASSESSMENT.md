@@ -13,6 +13,7 @@ Why is this test failing? Please fix it
 
 ### 1.2 FIXME
 What could be done to improve on this test?
+What best practices or clean code can be applied?
 
 ### 1.3 FIXME
 Can you fix this E2E test? What could also be done to improve on this test?

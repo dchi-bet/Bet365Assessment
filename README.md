@@ -1,9 +1,14 @@
 # Intro
 Welcome to the assessment! 
 
-You have 1 hour to complete the assessment. Please use a timer make sure you stay within that alloted time range. While you may feel pressure to complete all the problems, you do not have to complete everything! Complete as much as you can within the allotted time frame.
+This assessment is designed to test your knowledge on debugging failing test cases, automation best practices, and using Playwright. 
 
-## Prerequisites
+You have 1 hour to complete the assessment. Before starting the assessment, please read over the prequisities, technologies used, and set up your machine to be able to run these tests. Spend some time to get familiar with the code. When you are ready to start the assessment,
+create a `git branch` to begin the [problems](/ASSESSMENT.md). Remember to **start your 1 hour timer**.
+
+While you may feel pressure to complete all the problems, you do not have to complete everything! Complete as much as you can within the allotted time frame. Regardless of where you are at (working code or not), please commit all your code to the branch.
+
+## [REQUIRED] Prerequisites
 
 ```
 nvm
@@ -13,7 +18,7 @@ git
 Google Chrome
 ```
 
-### Installing NVM and Node
+### [OPTIONAL] Installing NVM and Node
 ```shell
 # Installing NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -23,7 +28,7 @@ nvm install v24.11.0
 nvm use v24.11.0
 ```
 
-### Installing VSCode
+### [OPTIONAL] Installing VSCode
 ```shell
 https://code.visualstudio.com/download
 ```
@@ -50,6 +55,9 @@ npm run test:api
 
 # Runs just the E2E tests
 npm run test:e2e
+
+# Run the E2E tests with an interactive browser
+npm run test:e2e:ui
 ```
 
 # Rules

@@ -3,6 +3,8 @@ Welcome to the assessment!
 
 This assessment is designed to test your knowledge on debugging failing test cases, automation best practices, and using Playwright. 
 
+The code in this repo consists of a set of tests that makes assertions against the `https://automationexercise.com/`, which is a site designed to practice automation testing. You will fix broken tests and create a new E2E test.
+
 You have 1 hour to complete the assessment. Before starting the assessment, please read over the prequisities, technologies used, and set up your machine to be able to run these tests. Spend some time to get familiar with the code. When you are ready to start the assessment,
 create a `git branch` to begin the [problems](/ASSESSMENT.md). Remember to **start your 1 hour timer**.
 
